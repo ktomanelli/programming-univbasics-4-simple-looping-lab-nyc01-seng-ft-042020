@@ -26,10 +26,12 @@ end
 
 def return_string_array(arr)
  count=0;
+ str=''
   while count<arr.length do
-    puts arr[count]
+    str+=arr[count]
     count+=1
   end
+  str
 end
 
 

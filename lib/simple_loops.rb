@@ -21,6 +21,6 @@ def return_string_array(arr)
   count=0
   while count<arr.length do
     str+=arr[count]
-    count++
+    count+=1
   end
 end

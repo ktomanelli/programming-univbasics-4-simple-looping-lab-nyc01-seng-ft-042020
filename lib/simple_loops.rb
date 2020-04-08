@@ -23,4 +23,5 @@ def return_string_array(arr)
     str+=arr[count].to_s
     count+=1
   end
+  puts str
 end

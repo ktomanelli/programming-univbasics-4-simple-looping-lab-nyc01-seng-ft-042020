@@ -28,7 +28,7 @@ def return_string_array(arr)
  count=0;
  str='['
   while count<arr.length do
-    str+="\"#{arr[count].to_s}\","
+    str+="'#{arr[count].to_s}',"
     count+=1
   end
   str+=']'

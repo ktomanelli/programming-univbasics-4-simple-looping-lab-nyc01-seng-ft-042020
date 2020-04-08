@@ -20,7 +20,7 @@ def return_string_array(arr)
   str = ''
   count=0
   while count<arr.length do
-    str+=arr[count].to_s
+    str+="#{arr[count]}"
     count+=1
   end
   puts str

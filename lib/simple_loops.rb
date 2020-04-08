@@ -22,11 +22,6 @@ def output_array(msg,n)
 end
 
 def return_string_array(arr)
-  str = ''
-  count=0
-  while count<arr.length do
-    str+="#{arr[count]}"
-    count+=1
-  end
+  str = arr.to_s
   puts str
 end

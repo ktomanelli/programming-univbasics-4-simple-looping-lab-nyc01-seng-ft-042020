@@ -26,12 +26,12 @@ end
 
 def return_string_array(arr)
  count=0;
- str='['
+ str=
   while count<arr.length do
-    str=arr.to_s
+    arr[count]="#{arr[count]}"
     count+=1
   end
-  str+=']'
+  arr.to_s
 end
 
 

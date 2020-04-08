@@ -17,8 +17,10 @@ def loop_message_n_times(msg,n)
 end
 
 def output_array(msg,n)
-  n.times{puts msg}
-  nil
+  count=0
+  while count<n
+    puts msg
+  end
 end
 
 def return_string_array(arr)

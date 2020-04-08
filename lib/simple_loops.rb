@@ -18,6 +18,7 @@ end
 
 def output_array(msg,n)
   n.times{puts msg}
+  nil
 end
 
 def return_string_array(arr)

@@ -1,7 +1,10 @@
 # Write your methods here
 
 def loop_message_five_times(msg)
-  5.times(puts msg)
+  count=0
+  while count<5
+    puts msg
+  end
 end
 
 def loop_message_n_times(msg,n)

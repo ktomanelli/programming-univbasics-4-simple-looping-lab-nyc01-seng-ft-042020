@@ -31,7 +31,7 @@ def return_string_array(arr)
     arr[count]="#{arr[count]}"
     count+=1
   end
-  arr.to_s
+  arr
 end
 
 

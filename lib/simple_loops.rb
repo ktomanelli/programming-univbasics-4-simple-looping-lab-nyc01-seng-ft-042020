@@ -22,6 +22,8 @@ def output_array(msg,n)
 end
 
 def return_string_array(arr)
-  str = arr.to_s
-  puts str
+ puts arr.to_s
 end
+
+
+

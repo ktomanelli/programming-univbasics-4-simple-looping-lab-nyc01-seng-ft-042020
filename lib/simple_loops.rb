@@ -17,7 +17,7 @@ def loop_message_n_times(msg,n)
 end
 
 def output_array(msg,n)
-  n.times(puts msg)
+  n.times{puts msg}
 end
 
 def return_string_array(arr)

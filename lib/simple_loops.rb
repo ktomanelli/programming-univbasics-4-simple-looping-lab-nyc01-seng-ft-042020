@@ -25,7 +25,10 @@ def output_array(arr)
 end
 
 def return_string_array(arr)
- puts arr.to_s
+ count=0;
+  while count<arr.length do
+    count+=1
+  end
 end
 
 

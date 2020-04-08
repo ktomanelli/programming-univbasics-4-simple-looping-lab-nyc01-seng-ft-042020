@@ -16,11 +16,11 @@ def output_array(msg,n)
   n.times(puts msg)
 end
 
-# def return_string_array(arr)
-#   str = ''
-#   count=0
-#   while count<arr.length do
-#     str+=arr[count]
-#     count++
-#   end
-# end
+def return_string_array(arr)
+  str = ''
+  count=0
+  while count<arr.length do
+    str+=arr[count]
+    count++
+  end
+end

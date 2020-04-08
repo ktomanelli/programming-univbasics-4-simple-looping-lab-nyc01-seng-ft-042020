@@ -1,7 +1,7 @@
 # Write your methods here
 
-def loop_message_five_times(msg)
-  5.times(puts msg)
+def loop_message_five_times()
+  5.times(puts 'a')
 end
 
 def loop_message_n_times(msg,n)
